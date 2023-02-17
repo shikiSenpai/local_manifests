@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  
+  <!-- GitHub -->
+  <remote  name="github"
+           fetch="https://github.com" />
+  
+  <!-- OnePlus Nord2 5G -->
+  
+  <project path="device/oneplus/denniz" name="vishalguptaIg/device_2T" revision="tiramisu" remote="github" />
+  
+  <project path="kernel/oneplus/denniz" name="vishalguptaIg/oneplus_kernel_2T" revision="2T" remote="github" />
+  
+
+  <project path="vendor/mediatek/ims" name="SakilMondal/vendor_mediatek_ims" revision="13" remote="github" />
+  
+  <project path="packages/apps/OneplusParts" name="nattolecats/packages_apps_OneplusParts" revision="tiramisu" remote="github" />
+  <project path="packages/apps/OPlusExtras" name="AnierinBliss/packages_apps_OPlusExtras" revision="tiramisu" remote="github" />
+  
+  
+  <!-- Proton-clang for older kernel building -->
+  <project path="prebuilts/clang/host/linux-x86/proton" name="kdrag0n/proton-clang" revision="master" remote="github" />
+  
+  
+  
+</manifest> 
